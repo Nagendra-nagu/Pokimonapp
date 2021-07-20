@@ -1,0 +1,237 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(
+    to left bottom,
+    #a110a8,
+    #9f36b7,
+    #9d4dc4,
+    #9b60d0,
+    #9971db,
+    #9e74e0,
+    #a278e5,
+    #a77bea,
+    #b471ea,
+    #c264e8,
+    #d254e4,
+    #e13edd
+  );
+}
+
+.main-card {
+  display: flex;
+  min-width: 300px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.child-card {
+  background-image: radial-gradient(
+    circle,
+    #ceff00,
+    #d5ff3e,
+    #dbff5b,
+    #e1ff74,
+    #e7ff8a,
+    #e2f587,
+    #ddec84,
+    #d7e281,
+    #c6cd65,
+    #b6b74a,
+    #a6a32c,
+    #968e00
+  );
+  align-items: center;
+  border: 1px solid black;
+  text-align: center;
+  margin: 10px;
+  border-radius: 20px;
+  width: 20vw;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+.card-img {
+  background-image: radial-gradient(
+    circle,
+    #f2ff00,
+    #e4f700,
+    #d6ef00,
+    #c9e700,
+    #bcdf00,
+    #b5d500,
+    #afcc00,
+    #a8c200,
+    #a5b500,
+    #a1a700,
+    #9c9b00,
+    #968e00
+  );
+  width: 80%;
+  height: 40%;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.card-head {
+  text-transform: capitalize;
+  color: rgb(99, 75, 75);
+  font-size: 1.3rem;
+}
+.card-name {
+  text-transform: capitalize;
+  padding: 5px;
+  margin: 5px;
+  position: relative;
+  
+}
+.card-name::after{
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: #9b60d0;
+  bottom: 0;
+  left: 0;
+}
+
+.card-height {
+  margin-right: 10px;
+  color: rgb(99, 75, 75);
+}
+.card-weight {
+  margin-right: 10px;
+  color: rgb(99, 75, 75);
+}
+.card-xp {
+  font-weight: 600;
+}
+.card-type {
+  font-weight: 600;
+}
+.card-move {
+  font-weight: 600;
+}
+
+.form {
+  text-align: center;
+}
+/* .form form input{
+  text-align: center;
+  font-size: 20px;
+  width: 60%;
+  height: 40px;
+  border-radius: 10px;
+} */
+.form {
+  height: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#change {
+  min-width: 230px;
+  height: 30px;
+  margin: 15px;
+  border: none;
+}
+
+#btn {
+  padding: 10px 30px;
+  background-color: purple;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  transition: 0.3s;
+}
+#btn:hover {
+  background-color: white;
+  color: black;
+}
+#loading-fake {
+  display: none;
+}
+
+/* ....................footer................. */
+.footer-container {
+  width: 100%;
+  background-color: black;
+}
+
+.footer-container footer {
+  padding: 20px 8vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footer-container footer .fotter-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 20px;
+  border-bottom: 2px solid white;
+  text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footer-container footer .fotter-contact a i {
+  font-size: 26px;
+  padding: 10px;
+  color: white;
+}
+
+.footer-container footer .policy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footer-container footer .policy span {
+  color: white;
+  font-family: "Noto Sans JP", sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  font-size: 20px;
+  padding: 10px;
+}
